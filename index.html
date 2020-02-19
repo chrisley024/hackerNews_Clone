@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<link>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- https://news.ycombinator.com/ -->
+  <title>HackerNews-Clone</title>
+  <!-- <link rel="stylesheet" href="normalize.css"> -->
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div id="app-container">
+    <div id="app-header">
+      <header class="header">
+        <div class="pagetop">
+          <span class="header-title">
+            <a href="/"><img class="header-logo" src="https://news.ycombinator.com/y18.gif" ></a>
+            <a href="#/news">Hacker News</a>
+          </span>
+          <span></span>
+          <a href="#/newest" class="header-link">new</a> |
+          <a href="#/front" class="header-link"> past</a> |
+          <a href="#/newcomments" class="header-link">comments</a> |
+          <a href="#/ask" class="header-link">ask</a> |
+          <a href="#/show" class="header-link">show</a> |
+          <a href="#/jobs" class="header-link">jobs</a> |
+          <a href="https://news.ycombinator.com/submit" class="header-link">submit</a></span>
+          <span>
+            <a href="https://news.ycombinator.com/login?goto=news" id="header-login">login<a>
+          </span>
+        </div>
+      </header>
+    </div>
+    <!-- <div style="clear:both"></div> -->
+    <div id="route-container">
+      <div id="router-outlet"> </div>
+      <hr id="orange-hr">
+     
+      <div class="yclinks">
+        <br>
+        <a href="https://www.ycombinator.com/apply/" class="pagetop">
+          Applications are open for YC Summer 2020<a>
+        <br>
+        <br>
+      <a href="newsguidelines.html">Guidelines</a>
+        | <a href="newsfaq.html">FAQ</a>
+        | <a href="mailto:hn@ycombinator.com">Support</a>
+        | <a href="https://github.com/HackerNews/API">API</a>
+        | <a href="security.html">Security</a>
+        | <a href="lists">Lists</a>
+        | <a href="bookmarklet.html" rel="nofollow">Bookmarklet</a>
+        | <a href="http://www.ycombinator.com/legal/">Legal</a>
+        | <a href="http://www.ycombinator.com/apply/">Apply to YC</a>
+        | <a href="mailto:hn@ycombinator.com">Contact</a>
+        <br>
+        <br>
+        <form method="get" action="https://hn.algolia.com/?q=">Search: <input type="text" name="q" value="" size="17" autocorrect="off" spellcheck="false" autocapitalize="off" autocomplete="false"></form>
+      </div>    
+    </div>
+  </div>
+
+  <script type="module" src="app.js"></script> 
+  <!-- https://npmjs.com/package/navigo -->
+  <script src="//unpkg.com/navigo@6"></script>
+
+</body>
+
+</html>
