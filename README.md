@@ -1,7 +1,7 @@
-### Clone of Hacker News
+## Clone of Hacker News
 
-# Tech Stack
-HTML,
-CSS,
-JavaScript,
-API from Hacker News
+## Tech Stack
+###### HTML,
+###### CSS,
+###### JavaScript,
+###### API from Hacker News
