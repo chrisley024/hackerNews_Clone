@@ -1,6 +1,6 @@
-## Clone of Hacker News
+### Clone of Hacker News
 
-## Tech Stack
+### Tech Stack
 ###### HTML,
 ###### CSS,
 ###### JavaScript,
